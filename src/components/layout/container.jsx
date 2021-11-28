@@ -6,7 +6,7 @@ function Container({ children, lessPadding, className }) {
     : "py-12 md:py-14 lg:py-16 xl:py-18"
   return (
     <div
-      className={`${py} px-5 sm:px-12 md:px-28 lg:px-32 xl:px-40 ${className}`}
+      className={`${py} px-5 sm:px-12 md:px-28 lg:px-32 xl:px-36 ${className}`}
     >
       {children}
     </div>

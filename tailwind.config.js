@@ -9,6 +9,10 @@ module.exports = {
       body: ["Inter", "sans-serif"],
     },
     extend: {
+      screens: {
+        xs: "320px",
+        sm: "576px",
+      },
       spacing: {
         14: "3.5rem",
         18: "4.5rem",
@@ -26,7 +30,7 @@ module.exports = {
       colors: {
         transparent: "transparent",
         current: "currentColor",
-        white: "#f9f9f9",
+        white: "#fefefe",
         black: colors.gray["900"],
         gray: {
           light: colors.gray["300"],
@@ -37,6 +41,7 @@ module.exports = {
           DEFAULT: "#F1E0FF",
           dark: colors.blue["700"],
         },
+        accent: "#D1FAE5",
       },
       borderRadius: {
         xs: "0.08rem",
@@ -55,4 +60,3 @@ module.exports = {
   },
   plugins: [],
 }
-
