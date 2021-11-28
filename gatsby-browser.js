@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+
+import "./src/styles/tailwind.base.css"
+import "./src/styles/application.css"
+import "./src/styles/tailwind.after.css"
