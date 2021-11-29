@@ -36,9 +36,9 @@ const Header = () => {
           className="flex relative items-center drop-shadow-xl
           h-18 md:h-20 justify-between py-5"
         >
-          <Link to="/" aria-label="Clean Air Collective">
+          <Link to="/" aria-label="Salonee Gupta">
             <StaticImage
-              alt="Clean Air Collective"
+              alt="Salonee Gupta"
               src="../images/logo.png"
               placeholder="tracedSVG"
               className="h-10 w-28 md:h-12 md:w-32"
