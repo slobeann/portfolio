@@ -1,0 +1,41 @@
+import React, { useState } from "react"
+import { StaticImage } from "gatsby-plugin-image"
+import { Container } from "../../layout"
+import Project from "./project"
+
+const proje = [
+  {
+    title: "Asian Paints",
+    description:
+      "Designing an e-commerce portal under Asian Paints’ Beautiful Homes Service. ",
+  },
+  {
+    title: "ARC Foundation",
+    description:
+      "Rebranding and redesigning for an Indian non - profit with goals of building an aware, active, and responsible citizenry.",
+  },
+  {
+    title: "The Sock",
+    description:
+      "Enriching information analytics for retail spaces with an occupancy detection system using non intrusive sensors.",
+  },
+]
+
+const Image = props => {
+  return <StaticImage {...props} />
+}
+
+function projects() {
+  return (
+    <Container>
+      <Project
+        number="01"
+        image={<div>kdnfjdnf</div>}
+        title="Asian Paints"
+        description="Designing an e-commerce portal under Asian Paints' Beautiful Homes Service."
+      />
+    </Container>
+  )
+}
+
+export default projects

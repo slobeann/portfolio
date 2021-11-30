@@ -12,10 +12,10 @@ function Hero() {
     }, [3000])
   }, [])
   return (
-    <section class="home-hero-section">
+    <section className="home-hero-section">
       <Container className="h-full">
         <div className="h-full flex flex-col justify-center">
-          <div>
+          <div className="lg:-mb-32">
             <h1>
               <span className="text-gray-dark">Hi, I’m </span>
               <span className="primary-stripe">Salonee.</span>

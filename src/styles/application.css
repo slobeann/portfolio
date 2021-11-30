@@ -44,6 +44,9 @@
   .p3 {
     @apply text-base md:text-lg mb-2 md:mb-3;
   }
+  .p4 {
+    @apply text-xs mb-1 md:mb-1.5;
+  }
 }
 
 @layer components {
@@ -96,5 +99,19 @@
     bottom: 0em;
     transition: height 0.15s ease-in-out;
     @apply left-0 w-full bg-accent;
+  }
+  .h-stripe {
+    position: relative;
+    z-index: 1;
+  }
+  .h-stripe::after {
+    position: absolute;
+    content: "";
+    height: 0.4em;
+    transition-delay: 0.1s;
+    z-index: -1;
+    bottom: 0em;
+    transition: height 0.15s ease-in-out;
+    @apply left-0 w-full bg-primary;
   }
 }
