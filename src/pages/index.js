@@ -6,7 +6,7 @@ import Projects from "../components/home/projects"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
+    <Seo title="Work" />
     <Hero />
     <Projects />
   </Layout>

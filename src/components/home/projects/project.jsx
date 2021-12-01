@@ -1,7 +1,6 @@
 import React, { useState } from "react"
 
 function project({ image, title, description, number, tags }) {
-  console.log(image)
   return (
     <div className="mb-24 last:mb-0 flex flex-col lg:flex-row">
       <div className="flex flex-col mb-4 lg:mb-0 lg:items-end lg:w-2/12">
