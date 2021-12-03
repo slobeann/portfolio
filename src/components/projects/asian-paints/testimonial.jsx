@@ -1,9 +1,9 @@
 import React, { useState } from "react"
-import { Container } from "../layout"
+import { Container } from "../../layout"
 
 function project() {
   return (
-    <section className="bg-primary-light">
+    <section className="">
       <Container>
         <p className="p1 text-black-light">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

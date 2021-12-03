@@ -2,7 +2,11 @@ import React, { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Container } from "../layout"
 
-const actions = ["writes", "codes", "models"]
+const actions = [
+  { action: "writes", color: "orange" },
+  { action: "codes", color: "cyan" },
+  { action: "models", color: "skyblue" },
+]
 function Hero() {
   const [count, setCount] = useState(0)
   useEffect(() => {
@@ -17,7 +21,7 @@ function Hero() {
         <div className="h-full flex flex-col justify-center">
           <div className="lg:-mb-32">
             <h1>
-              <span className="text-gray-dark">Hi, I’m </span>
+              <span className="text-gray-light">Hi, I’m </span>
               <span className="primary-stripe">Salonee.</span>
             </h1>
             <p className="p0">
@@ -28,12 +32,32 @@ function Hero() {
                   height: "1em",
                   width: "3.5em",
                 }}
-                className="relative inline-block secondary-stripe overflow-hidden"
+                className="relative inline-block overflow-hidden"
               >
                 <AnimatePresence>
                   <motion.span
-                    className="leading-none"
-                    style={{ position: "absolute" }}
+                    className="leading-none absolute inset-0"
+                    initial={{
+                      opacity: 0,
+                    }}
+                    animate={{
+                      opacity: 1,
+                      backgroundColor: actions[count % actions.length].color,
+                    }}
+                    exit={{
+                      opacity: 0,
+                    }}
+                    transition={{
+                      type: "tween",
+                      duration: 0.3,
+                    }}
+                    key={count}
+                    className="w-full h-1/2 absolute block top-4"
+                  ></motion.span>
+                </AnimatePresence>
+                <AnimatePresence>
+                  <motion.span
+                    className="leading-none absolute inset-0"
                     initial={{
                       y: "1em",
                     }}
@@ -49,7 +73,7 @@ function Hero() {
                     }}
                     key={count}
                   >
-                    {actions[count % actions.length]}
+                    {actions[count % actions.length].action}
                   </motion.span>
                 </AnimatePresence>
               </span>

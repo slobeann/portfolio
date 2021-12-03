@@ -39,8 +39,11 @@ module.exports = {
           light: colors.gray["300"],
           dark: colors.gray["400"],
         },
+        greenBG: "#E3FEC2",
+        blueBG: "#DEF7FF",
         link: "#3590FA",
         primary: {
+          light: "#FBF7FF",
           DEFAULT: "#F1E0FF",
           dark: colors.blue["700"],
         },

@@ -10,7 +10,7 @@ function project() {
       >
         <div className="md:w-1/2 flex flex-col">
           <h3 className="h-stripe mr-auto">Who I am</h3>
-          <p1 className="p3 pt-2">
+          <p className="p3 pt-2">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -18,7 +18,7 @@ function project() {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
-          </p1>
+          </p>
         </div>
 
         <div className="md:w-1/2 flex flex-col">

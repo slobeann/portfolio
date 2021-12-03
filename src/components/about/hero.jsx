@@ -8,6 +8,7 @@ function project() {
       <div className="mb-24 last:mb-0 flex flex-col lg:flex-row">
         <StaticImage
           src="../../images/profile.jpg"
+          alt="Salonee Gupta"
           className="md:w-1/2 lg:w-5/12 lg:mr-8 flex-shrink-0 mb-4 lg:mb-0"
         />
         <div className="self-center flex flex-col mr-auto">

@@ -7,11 +7,12 @@ function project({ image, title, description, number, tags }) {
         <span className="h2 lg:text-8xl text-primary">{number}</span>
         <div className="flex flex-col lg:items-end lg:pr-2">
           {tags.map(tag => {
-            return <span className="p4">{tag}</span>
+            return <span className="p-xs">{tag}</span>
           })}
         </div>
       </div>
       {React.cloneElement(image, {
+        alt: title,
         className:
           "md:w-1/2 lg:w-5/12 lg:ml-12 lg:mr-8 flex-shrink-0 mb-4 lg:mb-0",
       })}

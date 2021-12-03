@@ -39,7 +39,7 @@ function project() {
               </span>
             </div>
             <div className="flex flex-col">
-              <span className="OBSESSION">LEARNING</span>
+              <span className="OBSESSION">OBSESSION</span>
               <span className="text-black-light">
                 Watching New Girl on Netflix, making the perfect sangria
               </span>
