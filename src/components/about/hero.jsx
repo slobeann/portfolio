@@ -9,6 +9,7 @@ function project() {
         <StaticImage
           src="../../images/profile.jpg"
           alt="Salonee Gupta"
+          placeholder="blurred"
           className="md:w-1/2 lg:w-5/12 lg:mr-8 flex-shrink-0 mb-4 lg:mb-0"
         />
         <div className="self-center flex flex-col mr-auto">

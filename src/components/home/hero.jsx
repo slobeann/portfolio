@@ -3,9 +3,9 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Container } from "../layout"
 
 const actions = [
-  { action: "writes", color: "orange" },
-  { action: "codes", color: "cyan" },
-  { action: "models", color: "skyblue" },
+  { action: "writes", color: "#FEF8C3" },
+  { action: "codes", color: "#E4EFFD" },
+  { action: "models", color: "#E2FECB" },
 ]
 function Hero() {
   const [count, setCount] = useState(0)
@@ -21,7 +21,7 @@ function Hero() {
         <div className="h-full flex flex-col justify-center">
           <div className="lg:-mb-32">
             <h1>
-              <span className="text-gray-light">Hi, I’m </span>
+              <span className="text-black-light">Hi, I’m </span>
               <span className="primary-stripe">Salonee.</span>
             </h1>
             <p className="p0">

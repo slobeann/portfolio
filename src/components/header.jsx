@@ -54,7 +54,7 @@ const Header = () => {
 
           <nav className="hidden md:block">
             <ul className="flex md:space-x-10 md:space-x-12">
-              <NavItem to="/">Work</NavItem>
+              <NavItem to="/#projects">Work</NavItem>
               <NavItem to="/about">About</NavItem>
             </ul>
           </nav>
@@ -98,7 +98,7 @@ const Header = () => {
             px-10 py-8 md:p-0 drop-shadow-2xl md:hidden"
           >
             <ul className="flex flex-col md:space-x-10 md:space-x-12">
-              <NavItem to="/">Work</NavItem>
+              <NavItem to="/#projects">Work</NavItem>
               <NavItem to="/about">About</NavItem>
               <NavItem
                 to="https://static1.squarespace.com/static/5f216d5cec92895c5dd59ff2/t/60b089dfe7735e462df61766/1622182367490/resume.pdf"

@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { Container } from "../layout"
 
 function project() {
@@ -8,20 +8,7 @@ function project() {
         className="mb-24 last:mb-0 flex flex-col lg:flex-row space-y-8 md:space-y-0
         md:space-x-10 lg:space-x-14 xl:space-x-16"
       >
-        <div className="md:w-1/2 flex flex-col">
-          <h3 className="h-stripe mr-auto">Who I am</h3>
-          <p className="p3 pt-2">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-
-        <div className="md:w-1/2 flex flex-col">
+        <div className="flex flex-col">
           <h3 className="h-stripe mr-auto">What I do</h3>
           <p1 className="p3 pt-2">
             With a background in computer science, I worked as a UX Designer at{" "}

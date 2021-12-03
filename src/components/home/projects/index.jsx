@@ -6,6 +6,8 @@ import Project from "./project"
 function projects() {
   return (
     <Container>
+      <div id="projects">
+      </div>
       <Project
         number="01"
         image={<StaticImage src="../../../images/projects/asian-paints.png" />}

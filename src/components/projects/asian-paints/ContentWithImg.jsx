@@ -2,7 +2,7 @@ import React from "react"
 
 function ImgAndContent({ image, children }) {
   return (
-    <div className="flex flex-col md:flex-row mb-12 md:items-center content-with-img">
+    <div className="flex flex-col md:flex-row mb-20 md:items-center content-with-img">
       {React.cloneElement(image, {
         className: "md:w-1/2 mb-5 md:mb-0 img",
       })}
